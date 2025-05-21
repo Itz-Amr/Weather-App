@@ -63,11 +63,11 @@ export default function App() {
                 fetchWeatherData();
               }
             }}
-            className="py-3 pl-10 pr-3 outline-0 border border-gray-500 bg-white rounded-2xl w-full text-sm"
+            className="p-3 pr-3 outline-0 border border-gray-500 bg-white rounded-2xl w-full text-sm"
           />
           <CiSearch
             onClick={fetchWeatherData}
-            className="absolute top-3.5 right-3.5 text-xl text-gray-700 cursor-pointer"
+            className="absolute top-[14px] right-9 text-xl text-gray-700 cursor-pointer"
           />
         </div>
 
